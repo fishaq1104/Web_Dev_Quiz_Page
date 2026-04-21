@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<title> Registration: Arabic Competence Exam</title>
+	<meta charset = "utf-8"/>
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
+</head>
+
+<body>
+	<header>
+		<h1> Create an Account </h1>
+		<p> Join the Arabic Competence Exam Platform</p>
+		<nav>
+			<a href = "index.html">Home</a>
+			<a href = "login.html">Login</a>
+		</nav>
+	</header>
+	
+	<div class = "container">
+		<section>
+			<h2>Registration Form</h2>
+			<form action = "process_register.php" method = "POST">
+				
+					<p><label>Full Name: </label><br/><input type = "text" name = "name" class = "my-input" placeholder = "Enter your full name" required></p>
+					<p><label>Email Address: </label><br/><input type = "email" name = "email" class = "my-input" placeholder = "Enter your email" required></p>
+					<p><label>Student ID: </label><br/><input type = "text" name = "student_id" class = "my-input" placeholder = "Enter your Student ID" required></p>
+					<p><label>Password: </label><br/><input type = "password" name = "password" class = "my-input" placeholder = "Enter your password" required></p>
+				<div style = "text-align: center; margin-top: 20px;">
+					<button type = "submit" class = "btn-cute"> Sign Up </button>
+				</div>
+				
+			</form>
+			<p style = "text-align: center; font-style: italic; color: rosybrown; margin-top: 20px;"> Already Having Existing Account? <a href = "login.html" style = "color: mediumpurple;">Login here</a></p>
+		</section>
+	</div>
+	
+	<footer>
+		<p>&copy; Web Development Project</p>
+	</footer>
+</body>
+</html>

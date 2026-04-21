@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<title> Login: Arabic Competence Exam</title>
+		<meta charset = "utf-8"/>
+		<link rel = "stylesheet" type = "text/css" href = "style.css">
+	</head>
+	
+	<body>
+		<header>
+			<h1>Welcome Back!!</h1>
+			<p> Please Login to begin your Arabic Competence Exam</p>
+			
+			<nav>
+				<a href = "index.html">Home</a>
+				<a href = "register.html">Register</a>
+			</nav>
+		</header>
+		
+		<div class = "container">
+			<section>
+				<h2>User Login</h2>
+				<form action = "process_login.php" method = "POST">
+					
+						<p><label>Email: </label><br/><input type = "email" name = "email" class = "my-input" placeholder = "Enter your email" required><br/></p>
+						<p><label>Password: </label><br/><input type = "password" name = "password" class = "my-input" placeholder = "Enter your password" required><br/></p>
+					
+					
+					<div style = "text-align: center; margin-top: 30px;">
+						<button type = "submit" class = "btn-cute">Login Now</button>
+					</div>
+				</form>
+				<p style = "text-align: center; font-style: italic; color: rosybrown; margin-top: 20px;">
+					New User? <a href = "register.html" style = "color: mediumpurple;">Create an account</a>
+				</p>
+			</section>
+		</div>
+		
+		<footer>
+			<p>&copy; Web Development Project</p>
+		</footer>
+	</body>
+</html>
